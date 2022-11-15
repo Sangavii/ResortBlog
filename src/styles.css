@@ -1,0 +1,154 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+/* mega menu */
+.nav-link {
+  font-size: 0.95rem;
+}
+
+#basic-nav-dropdown {
+  font-size: 0.95rem;
+}
+
+#seeMoreLink {
+  color: #607d8b;
+}
+
+#seeMoreLink:hover {
+  color: black;
+  font-weight: 400;
+}
+.dropdown-menu {
+  padding: 1em;
+}
+
+.dropdown-item:hover {
+  outline: none;
+  box-shadow: none;
+  background: none;
+}
+.dropdown-item a:hover {
+  color: black;
+}
+
+.dropdown-item {
+  height: 2em;
+  padding-left: 1px;
+}
+
+.dropdown-header {
+  font-weight: 600;
+  padding-left: 0em;
+}
+
+@media only screen and (min-width: 600px) {
+  .eventsNav {
+    width: 22em;
+    padding-bottom: 1em;
+  }
+}
+
+/* Portfolio */
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: 0;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body,
+input,
+button {
+  font: 14px "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.portfolio__labels {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+  width: 400px;
+}
+
+.portfolio__labels a {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #333;
+}
+
+.portfolio__container {
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.portfolio__container span {
+  border: 1px solid #333;
+  padding: 5px;
+}
+
+.card_btn {
+  cursor: pointer;
+  border: 1px solid #3498db;
+  background-color: transparent;
+  height: 50px;
+  width: 50px;
+  color: #3498db;
+  font-size: 1.5em;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+  margin: 25px 50px 20px;
+}
+
+.vplayer {
+  float: left;
+  margin-right: 5px;
+}
+
+.services-card {
+  margin-left: 50px;
+}
+
+.eventsNav {
+  min-width: 25rem;
+}
